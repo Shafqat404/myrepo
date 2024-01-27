@@ -1,7 +1,7 @@
 #include<iostream>
 using namespace std;
 class Door {
-    private:
+private:
     bool isopen;
     bool isLocked;
 public:
@@ -13,6 +13,12 @@ public:
     bool isDoorOpen() const;
     bool isDoor Locked() const;
 };
+
+// constructor implimentation
+Door::Door(){
+    isopen=false;
+    isLocked=false;
+}
 int main(){
 return 0;
 }
