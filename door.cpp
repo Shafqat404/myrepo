@@ -20,9 +20,19 @@ Door::Door(){
     isLocked=false;
 }
 
+
 // openDoor Function implementation
 void Door::openDoor(){
     isOpen = true;
+
+
+// closeDoor Function implementation
+void Door::closeDoor(){
+    isOpen = false;
+// lockDoor function implementation
+void Door::lockDoor(){
+    isLocked = true;
+
 }
 
 int main(){
