@@ -34,10 +34,18 @@ void Door::lockDoor(){
     isLocked = true;
 
 }
+
+void Door::unlockDoor() {
+	isLocked = true;
+
+}
+
+
 void Door::isDooropen()
 {
 	isopen = true;
 }
+
 int main(){
 return 0;
 }
