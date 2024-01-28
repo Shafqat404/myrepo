@@ -34,6 +34,10 @@ void Door::lockDoor(){
     isLocked = true;
 
 }
+void Door::unlockDoor() {
+	isLocked = true;
+
+}
 
 int main(){
 return 0;
